@@ -99,7 +99,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 2rem;
   }
 
   .header.page-width,
@@ -1072,7 +1072,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--1-col-tablet-down.grid--peek .grid__item {
-    width: calc(100% - var(--grid-desktop-horizontal-spacing) - 3rem);
+    width: 50%;
   }
 }
 
