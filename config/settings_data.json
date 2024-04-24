@@ -133,8 +133,6 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "color_primary": "#96BB7C",
-          "title":"#252B42",
           "text": "#737373",
           "button": "#121212",
           "button_label": "#ffffff",
