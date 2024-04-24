@@ -71,8 +71,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/user-cover-2.png",
+            "title": "Julian Jameson",
+            "text": "<p>Profession<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -80,8 +81,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/user-cover-3.png",
+            "title": "Julian Jameson",
+            "text": "<p>Profession<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -89,8 +91,9 @@
         "column_AjWGUY": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/user-cover-4.png",
+            "title": "Julian Jameson",
+            "text": "<p>Profession<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -114,9 +117,9 @@
         "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 40
       }
     }
   },
