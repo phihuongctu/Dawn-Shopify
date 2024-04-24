@@ -68,7 +68,9 @@
             "image_fb": "shopify:\/\/shop_images\/facebook.svg",
             "fb_link": "https:\/\/www.facebook.com\/",
             "image_ins": "shopify:\/\/shop_images\/instagram.svg",
-            "ins_link": ""
+            "ins_link": "https:\/\/www.instagram.com\/",
+            "image_tw": "shopify:\/\/shop_images\/twitter.svg",
+            "tw_link": "https:\/\/twitter.com\/"
           }
         },
         "column2": {
@@ -78,8 +80,12 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "fb_link": "",
-            "ins_link": ""
+            "image_fb": "shopify:\/\/shop_images\/facebook.svg",
+            "fb_link": "https:\/\/facebook.com",
+            "image_ins": "shopify:\/\/shop_images\/instagram.svg",
+            "ins_link": "https:\/\/instagram.com",
+            "image_tw": "shopify:\/\/shop_images\/twitter.svg",
+            "tw_link": "https:\/\/twitter.com"
           }
         },
         "column3": {
@@ -89,8 +95,12 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "fb_link": "",
-            "ins_link": ""
+            "image_fb": "shopify:\/\/shop_images\/facebook.svg",
+            "fb_link": "https:\/\/facebook.com",
+            "image_ins": "shopify:\/\/shop_images\/instagram.svg",
+            "ins_link": "https:\/\/Instagram.com",
+            "image_tw": "shopify:\/\/shop_images\/twitter.svg",
+            "tw_link": "https:\/\/twitter.com"
           }
         },
         "column_AjWGUY": {
@@ -100,8 +110,12 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "fb_link": "",
-            "ins_link": ""
+            "image_fb": "shopify:\/\/shop_images\/facebook.svg",
+            "fb_link": "https:\/\/facebook.com",
+            "image_ins": "shopify:\/\/shop_images\/instagram.svg",
+            "ins_link": "https:\/\/instagram.com",
+            "image_tw": "shopify:\/\/shop_images\/twitter.svg",
+            "tw_link": "https:\/\/twitter.com"
           }
         }
       },
