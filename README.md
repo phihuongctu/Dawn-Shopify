@@ -13,4 +13,5 @@ Link Store: https://dawn-themes-customize.myshopify.com/
 Các File được sử dụng
 - sections/team.liquid: Xây dựng section team
 - sections/multicolumn.liquid: Xây dựng list user
+- assets/variables.scss: Thiết lập các giá trị cho CSS
 - assets/team.scss: CSS cho section team
