@@ -47,6 +47,14 @@
         "show_text_below": false
       }
     },
+    "team_ApwT7C": {
+      "type": "team",
+      "settings": {
+        "team_tag": "Team",
+        "team_title": "Get Quality Education",
+        "team_text": "<p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics<\/p>"
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -113,6 +121,7 @@
   },
   "order": [
     "image_banner",
+    "team_ApwT7C",
     "multicolumn"
   ]
 }
