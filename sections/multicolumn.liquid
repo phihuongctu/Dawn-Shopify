@@ -84,7 +84,7 @@
                   <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
-                      style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                      style="padding-bottom:100%;"
                     {% endif %}
                   >
                     {%- liquid
@@ -109,7 +109,7 @@
                     {% endcapture %}
                     {{
                       block.settings.image
-                      | image_url: width: 3200
+                      | image_url: width: 1000
                       | image_tag:
                         widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
                         sizes: sizes,
@@ -139,6 +139,18 @@
                   >
                 {%- endif -%}
               </div>
+              {%- if block.settings.image_fb != blank -%}
+                <a
+                  target="_blank"
+                  href="{% if block.settings.fb_link != blank %} {{ block.settings.fb_link }} {% else %} javascript&colon;void(0) {% endif %}"
+                >
+                  {{-
+                    block.settings.image_fb
+                    | image_url: width:24
+                    | image_tag: class: 'add_your_class_here', loading: 'lazy'
+                  -}}
+                </a>
+              {% endif %}
             </div>
           </li>
         {%- endfor -%}
@@ -404,9 +416,24 @@
           "label": "t:sections.multicolumn.blocks.column.settings.link_label.label"
         },
         {
+          "type": "image_picker",
+          "id": "image_fb",
+          "label": "image_fb"
+        },
+        {
           "type": "url",
-          "id": "link",
-          "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+          "id": "fb_link",
+          "label": "fb link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_ins",
+          "label": "image_ins"
+        },
+        {
+          "type": "url",
+          "id": "ins_link",
+          "label": "ins link"
         }
       ]
     }

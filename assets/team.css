@@ -18,6 +18,7 @@ p {
   letter-spacing: 0.2px;
   text-align: left;
   margin-bottom: 10px;
+  color: #96BB7C;
 }
 .section-team .team_title {
   font-size: 24px;
@@ -26,6 +27,7 @@ p {
   letter-spacing: 0.1px;
   text-align: left;
   margin-bottom: 10px;
+  color: #252B42;
 }
 .section-team p {
   font-size: 14px;
@@ -33,4 +35,22 @@ p {
   line-height: 20px;
   letter-spacing: 0.2px;
   text-align: left;
+  color: #737373;
+}
+
+.multicolumn-list h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252B42;
+}
+.multicolumn-list p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
 }/*# sourceMappingURL=team.css.map */
