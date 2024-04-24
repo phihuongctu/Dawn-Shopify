@@ -1,2 +1,3 @@
 Dawn Theme Customize
-- Đã đông bộ tự deploy lên store khi có push code lên github
+- Đã đồng bộ tự deploy lên store khi push code lên github
+- Tất cả content trong section có thể chỉnh sửa bằng builder trên shopify admin
