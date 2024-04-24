@@ -58,3 +58,11 @@ p {
         color: $color-subtext;
     }
 }
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}

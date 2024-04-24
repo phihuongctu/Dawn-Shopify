@@ -53,4 +53,12 @@ p {
   letter-spacing: 0.2px;
   text-align: center;
   color: #737373;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }/*# sourceMappingURL=team.css.map */

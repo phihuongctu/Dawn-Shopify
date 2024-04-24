@@ -109,11 +109,8 @@
                     {% endcapture %}
                     {{
                       block.settings.image
-                      | image_url: width: 1000
-                      | image_tag:
-                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
-                        sizes: sizes,
-                        class: 'multicolumn-card__image'
+                      | image_url: width: 300
+                      | image_tag: widths: '300', sizes: sizes, class: 'multicolumn-card__image'
                     }}
                   </div>
                 </div>
@@ -138,19 +135,46 @@
                     <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
                 {%- endif -%}
+                <div class="social-media">
+                  {%- if block.settings.image_fb != blank -%}
+                    <a
+                      target="_blank"
+                      href="{% if block.settings.fb_link != blank %} {{ block.settings.fb_link }} {% else %} javascript&colon;void(0) {% endif %}"
+                    >
+                      {{-
+                        block.settings.image_fb
+                        | image_url: width: 24
+                        | image_tag: class: 'add_your_class_here', loading: 'lazy'
+                      -}}
+                    </a>
+                  {% endif %}
+
+                   {%- if block.settings.image_ins != blank -%}
+                    <a
+                      target="_blank"
+                      href="{% if block.settings.ins_link != blank %} {{ block.settings.ins_link }} {% else %} javascript&colon;void(0) {% endif %}"
+                    >
+                      {{-
+                        block.settings.image_ins
+                        | image_url: width: 24
+                        | image_tag: class: 'add_your_class_here', loading: 'lazy'
+                      -}}
+                    </a>
+                  {% endif %}
+                   {%- if block.settings.image_tw != blank -%}
+                    <a
+                      target="_blank"
+                      href="{% if block.settings.tw_link != blank %} {{ block.settings.tw_link }} {% else %} javascript&colon;void(0) {% endif %}"
+                    >
+                      {{-
+                        block.settings.image_tw
+                        | image_url: width: 24
+                        | image_tag: class: 'add_your_class_here', loading: 'lazy'
+                      -}}
+                    </a>
+                  {% endif %}
+                </div>
               </div>
-              {%- if block.settings.image_fb != blank -%}
-                <a
-                  target="_blank"
-                  href="{% if block.settings.fb_link != blank %} {{ block.settings.fb_link }} {% else %} javascript&colon;void(0) {% endif %}"
-                >
-                  {{-
-                    block.settings.image_fb
-                    | image_url: width:24
-                    | image_tag: class: 'add_your_class_here', loading: 'lazy'
-                  -}}
-                </a>
-              {% endif %}
             </div>
           </li>
         {%- endfor -%}
@@ -418,22 +442,32 @@
         {
           "type": "image_picker",
           "id": "image_fb",
-          "label": "image_fb"
+          "label": "Facebook Icon"
         },
         {
           "type": "url",
           "id": "fb_link",
-          "label": "fb link"
+          "label": "Facebook Link"
         },
         {
           "type": "image_picker",
           "id": "image_ins",
-          "label": "image_ins"
+          "label": "Instagram Icon"
         },
         {
           "type": "url",
           "id": "ins_link",
-          "label": "ins link"
+          "label": "Instagram Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_tw",
+          "label": "Twitter Icon"
+        },
+        {
+          "type": "url",
+          "id": "tw_link",
+          "label": "Twitter Link"
         }
       ]
     }
