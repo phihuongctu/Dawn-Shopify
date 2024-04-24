@@ -65,7 +65,10 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "link": ""
+            "image_fb": "shopify:\/\/shop_images\/facebook.svg",
+            "fb_link": "",
+            "image_ins": "shopify:\/\/shop_images\/instagram.svg",
+            "ins_link": ""
           }
         },
         "column2": {
@@ -75,7 +78,8 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "link": ""
+            "fb_link": "",
+            "ins_link": ""
           }
         },
         "column3": {
@@ -85,7 +89,8 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "link": ""
+            "fb_link": "",
+            "ins_link": ""
           }
         },
         "column_AjWGUY": {
@@ -95,7 +100,8 @@
             "title": "Julian Jameson",
             "text": "<p>Profession<\/p>",
             "link_label": "",
-            "link": ""
+            "fb_link": "",
+            "ins_link": ""
           }
         }
       },
