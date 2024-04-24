@@ -1,7 +1,7 @@
 {{ 'team.css' | asset_url | stylesheet_tag }}
 
 <h6 class="team_tag">{{ section.settings.team_tag | escape }}</h6>
-<h2 class="team_title">{{ section.settings.team_titletitle | escape }}</h2>
+<h2 class="team_title">{{ section.settings.team_title | escape }}</h2>
 {{ section.settings.team_text }}
 
 {% schema %}
@@ -11,7 +11,7 @@
     {
       "type": "text",
       "id": "team_tag",
-      "label": "tag",
+      "label": "Tag",
       "default": "Team"
     },
     {
