@@ -1,7 +1,8 @@
 {{ 'team.css' | asset_url | stylesheet_tag }}
 
+<h6 class="team_tag">{{ section.settings.team_tag | escape }}</h6>
 <h2 class="team_title">{{ section.settings.section_title | escape }}</h2>
-{{ section.settings.text }}
+{{ section.settings.team_text }}
 
 {% schema %}
 {
@@ -20,7 +21,7 @@
       "default": "Get Quality Education"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "team_text",
       "label": "Text",
       "default": "<p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>"
